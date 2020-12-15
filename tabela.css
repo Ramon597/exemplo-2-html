@@ -1,11 +1,22 @@
-body {
-    text-align: center; /* Alinha o texto */
-    display: flex; /* flexibilizando o layout */
-    flex-direction: column; /* alinhando o layout em coluna */
+section {
+    display: flex; /* flexibilizando o bloco secton */
+}
+
+div {
+    text-align: center; /*  centralizando o texto */
+    display: flex; /* flexibilizando os blocos */
+    flex-direction: column;
+    width: 50vw;
+
 }
 
 table, th, td {
     border: 1px solid #000; /* adicionando bordar nos elementos da tebela */
     width: 20px; /* configurando a largura dos elementos da tela */
     align-self: center; /* alinhando elemento ao centro do layout */
+}
+
+table {
+    width: 40vw;
+    
 }
