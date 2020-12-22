@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./listaCompras.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Lista de Compras</h1>
+
+        <table border="1"> 
+            <thead> 
+                <th>Item</th>
+                <th>Valor (R$)</th>
+            </thead>
+            <tbody id="list"></tbody>
+            <tfoot>
+                <tr>
+                    <td>Total (R$)</td>
+                    <td id="soma"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div>
+            <input type="text" id="new-item">
+            <input type="text" id="value-item">
+            <button id="add-item" type="submit"onclick=" addItem()">add Item </button>
+        </div>
+        <script src="./listaCompras.js"></script>
+
+    </div>
+    
+</body>
+</html>

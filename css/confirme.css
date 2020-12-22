@@ -1,0 +1,38 @@
+h4 {
+    font-size: large;
+    text-shadow: rgba(0, 139, 139, 0.768);
+    color: #333;
+}
+
+a {
+    text-emphasis: none;
+    font-size: 1.2rem;
+    color: rgba(0, 100, 0, 0.782);
+}
+
+div {
+    width: 50vw;
+    margin: 28vw auto;
+    padding: 5vw;
+    text-align: center;
+    color: #333;
+
+    box-shadow: 1px 2px 10px rgba(32, 31, 0, 1);
+
+    animation: slidein;
+    animation-duration: 1.5s;
+}
+
+i {
+    margin-right: 5px;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: 80vh;
+        width: 60vw;
+    }
+    to {
+        width: 80vw;
+    }
+}

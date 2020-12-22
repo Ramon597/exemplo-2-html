@@ -1,0 +1,157 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  --color1: #846aee;
+  --color2: #5c3bdf;
+
+  }
+
+  header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .avatar {
+    width: 14vw;
+    border-radius: 100px;
+
+  }
+
+  .title {
+    font-size: 2.2rem;
+    margin: 5px;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+  }
+
+  .subtitle {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 0;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+     
+  }
+
+  .contato {
+    padding: 0;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+      /* animação */
+  }
+  
+  .contato li {
+    color: var(--color1);
+    display: inline-block;
+
+  }
+
+  .contato i {
+    color:#846aee;
+    font-style: 1.6rem;
+
+  }
+
+  .contato i:hover {
+    color: var(--color2);
+  }
+  #down {
+    color: var(--color1);
+    font-size: 1.4rem;
+  }
+
+  #down:hover {
+    color: var(--color2);
+  }
+
+  #sobre {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--color1);
+  }
+  #sobre {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--color1);
+
+}
+  #about-me {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-me h1 {
+    margin-left: 5vw;
+  }
+  #lista {
+    width: 20vw;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #lista li {
+    font-weight: 700;
+    padding: 20px 0;
+    list-style: none;
+    cursor: default;
+  }
+  #lista li:hover {
+    background-color: var(--color2);
+    border-radius: 20px;
+  }
+  #atividades {
+    height: 50vh;
+    text-align: center;
+    border-top: 1px solid var(--color1);
+  }
+
+  #atividades li {
+    list-style: none;
+    padding: 5px;
+  }
+
+  #atividades a {
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 1.2rem;
+  }
+
+  #atividades a:hover {
+    text-decoration: underline;
+    
+  }
+
+  footer {
+    background-color: #232323c2;
+    color: #ffffff;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+
+  }
+
+  footer a {
+    color: var(--color1);
+  }
+
+  @keyframes slidein {
+    from {
+      margin-top: 50vh;
+      width: 100vw;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+#btn {
+  position: fixed;
+  right: 1vw;
+  top: 1vw;
+}

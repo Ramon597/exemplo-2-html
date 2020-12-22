@@ -5,37 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kluivert</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
 </head>
 <body>
-    <h1>Ramon dos Santos</h1>
-    <h2>ssilvaramon@hotmail.com</h2>
+    <header>
+        <img class="avatar" src="https://avatars3.githubusercontent.com/u/74991059?s=460&u=f471cd665e2d4cea27e4d937f8ac63252b614ee4&v=4" alt="">
 
-    <p>Estudar possibilita que conheçamos novas tecnologias e novas teorias que foram lançadas recentemente.
-         Assim, você fica conectado ao que há de novo na área da sua profissão.É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
-    </p>
+        <h1 class="title">Ramon dos Santos</h1>
 
-   <ol>
-       <li> criar pastas</li>
-       <li>organizar arquivos</li>
-       <li>fazer buscas de conteúdos</li>
-       <li> HTML,CSS do zero</li>
-   </ol>
+        <h2 class="subtitle">Web Developer</h2>
 
-  <h1>Contato</h1>
+        <ul class="contato">
+            <li>
+                <a href="http://github.com/Ramon597" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://linkedin.com/Ramon597" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <li>
+                    <a href="mailto:ssilvaramon@hotmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+            </li>
+        </ul>
 
-   <div id="git">
-       <div class="link">
-        <a href="https://www.google.com" target="_blank">Git</a>
-       </div>
-       <div class="link">
-           <a href="https://www.google.com" target="_blank">Linkdin</a>
-       </div>
-       <div class="link">
-           <a href="https://www.google.com" target="_blank">Email</a>
-       </div>     
-   </div>
+        <a href="#sobre" id="down">
+            <i class="fa fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <section id="sobre">
+        <div id="about-me">
+            <h1>SOBRE MIM</h1>
+            <p>Estudar possibilita que conheçamos novas tecnologias e novas teorias que foram lançadas recentemente.
+                Assim, você fica conectado ao que há de novo na área da sua profissão.É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.  </p>
+        </div>
+
+        <ul id="lista">
+            <li> HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="atividades">
+        <h2>Atividades</h2>
+        <ul>
+            <li>
+                <a href="./tabela.html" target="_blank" rel="noopener noreferrer">
+                 tabela
+             </a>
+            </li>
+            <li>
+                <a href="./Cadastro-index.html">
+                 Cadastro
+             </a>
+            </li>
+            <li>
+                <a href="./fotos.html" target="_blank" rel="noopener noreferrer">
+                 Álbum
+             </a>
+            </li>
+            <li>
+                <a href="./todo.html" target="_blank" rel="noopener noreferrer">
+                 Todo List
+             </a>
+            </li>
+            <li>
+                <a href="./listaCompras.html" target="_blank" rel="noopener noreferrer">
+                 Lista de Compras
+             </a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>
+            Desenvolvido por 
+            <a href="http://github.com/Ramon597" target="_blank"> 
+                Ramon
+            </a>
+        </p>
+    </footer>
+    <script src="./index.js"></script>
+    <button id="btn">Tema</button>
     
     
 </body>

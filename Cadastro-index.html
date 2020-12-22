@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <form action="confirme.html" method="get">
+        <h1>Cadastro</h1>
+
+        <div>
+            Nome: <input type="text" placeholder="Nome" id="nome">
+        </div> 
+        
+             <div>
+                Email: <input type="email" placeholder="email" id="email">   
+             </div> 
+
+                 <div>
+                     Senha: <input type="password" placeholder="Senha" id="senha">
+                 </div> 
+
+            <div>
+                uma Foto: <input type="file" placeholder="Nenhum ar..vo escolher">
+            </div> 
+
+        <div>
+            Selecione sua cor: <input type="radio" name="cor"> Amarelo
+            <input type="radio" name="cor" value="branco">  Branco 
+            <input type="radio" name="cor" value="pardo">  Pardo 
+            <input type="radio" name="cor" value="negro">  Negro
+            <input type="radio" name="cor"> Não quero responder
+        </div>
+
+        <div>
+            <input type="radio" name="cor"> Não quero responder 
+        </div> 
+
+        <div>
+            um Alagoas <input type="text" placeholder="Alagoas"> escolha um ou mais meios de comunicação
+        </div> 
+         
+        <div><input type="checkbox" name="comunicação" value="musica"> Música
+            <input type="checkbox" name="comunicação" value="televisao"> Televisão
+            <input type="checkbox" name="comunicação" value="radio"> Rádio
+        </div>
+       
+        <div> 
+             Observações: <textarea name="Observações"></textarea> 
+        </div> 
+
+       <div>
+        <input class="button" type="submit" value="enviar"> 
+        <input class="button"  type="reset" value="Desfazer alterações"> 
+    </div>
+       
+
+    </form>
+    
+</body>
+</html>

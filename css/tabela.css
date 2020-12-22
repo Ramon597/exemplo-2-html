@@ -18,5 +18,10 @@ table, th, td {
 
 table {
     width: 40vw;
+    background-color: rgba(244, 165, 96, 0.686);
     
+}
+
+body {
+    background-color: rgba(54, 139, 46, 0.796);
 }

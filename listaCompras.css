@@ -1,0 +1,56 @@
+body {
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+table{
+    text-align: center;
+    padding: Spx;
+    width: 60vw;
+    font-size: 1.2rem;
+}
+
+#valor, #soma {
+    color: crimson;
+}
+
+#add {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 58vw;
+    align-items: center;
+    border: 1px darkred #fafafa;
+    justify-items: left;
+    padding: 5px;
+}
+
+input {
+    height: 3vh;
+    margin-right: 5px;
+    border: 0;
+}
+
+button {
+    border: 0;
+    background: chocolate;
+    color: #fff;
+    width: 10 vw;
+    height: 4vw;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+input: :active {
+    border: 0;
+}
